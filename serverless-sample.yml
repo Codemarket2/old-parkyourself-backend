@@ -25,7 +25,7 @@ provider:
     STAGE: "${self:provider.stage}"
     APPSYNC_NAME: "${self:custom.defaultPrefix}-appsync"
 
-custom:
+custom: 
   appSync: # appsync plugin configuration
     name: backend-starter #your appsync api name eg internplan-backend-vivekt
     # appId: "p7dobaoxzbchxp4vuu7qhqzceq"
